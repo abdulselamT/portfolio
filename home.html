@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
     <link rel="stylesheet" href="style.css">
     <title>Abduselam</title>
     <link rel="icon" href="abd.png" type="image/png">
@@ -10,17 +12,53 @@
    
 </head>
 <body>
+
+
+    <section  class="header-name">
+        <div class="dev-name">
+        <p><i>Abdulselam Molla</i></p>
+        </div>
+        <div id="cons" class="contents">
+            <div id="lb" class=" left-back">
+                <button onclick="closeme()"><i class="fa-solid fa-arrow-left-long"></i></button> 
+             </div>
+            <div class="content-in">
+            <button  id="1" class="active" onclick="makemeactive(1)"> <a href="#home">home</a>  </button>
+                
+            </div>
+
+
+            <div  class="content-in">
+                <button id="2" onclick="makemeactive(2)"><a href="#aboutme"> about me</a></button>
+            </div>
+            <div class="content-in">
+                <button id="3" onclick="makemeactive(3)"> <a href="#skills">skills</a></button>
+            </div>
+
+            <div class="content-in">
+                <button onclick="makemeactive(4)" id="4"> <a href="#projects">projects</a></button>
+            </div>
+            
+
+
+
+        </div>
+        <div class="icon-mobile">
+            <button id="showw" onclick="showme()"><i class="fa-solid fa-list"></i></button> 
+         </div>
+        
+    </section>
+
+
     <div class="all-outer">
+        
         <div class="all-outer-in">
             
             
             <div class="pages">
-                <div class="name">
-                    <div class="dev-name">
-                    <p><i>Abdulselam Molla</i></p>
-                </div>
-                </div>
-                <div class="page one">
+                
+                
+                <section id="home" class="page one">
                    
                     <div class="page-one-first one-inner">
                         <div class="pro-img">
@@ -65,51 +103,162 @@
                             </div>
                         </div>
                     </div>
-                    <div class="page-one-third one-inner">
-
-                    </div>
+                    
                 </div>
 
-                <div class="page three">
+                <section id="aboutme" class="page three">
                    <div class="about-me">
-                    <div class="title">
-                        <h2>About Me</h2>
-                    </div>
-                    <div class="introduct">
-                        <p>
-                            A Remote Python developer. Have 3+ years of experience in Python, 
-                            data analysis, web automation, and Django development, and
-                             have participated in competitive programming. 
-                             Also developed Telegram bots for several purposes. 
-                             Specialize in backend development using Django and 
-                             data analysis using pandas , numpy python libraries
-                        </p>
-                    </div>
-                    <div class="biography">
-                        <div class="bio-title">
-                            <h2>Biography</h2>
+                        <div class="title">
+                            <h2>About Me</h2>
                         </div>
-                        <div class="bio-dep">
-                            <div class="bio-icon">
-                                <i class="fa-regular fa-user"></i>
-                                <span>name:</span>
-                            </div>
-                            <div class="bio-info">
-                                <p>Abdulselam Molla</p>
-                            </div>
+                        <div class="introduct" >
                             
+                            <p>
+                                A Remote Python developer. Have 3+ years of experience in Python, 
+                                data analysis, web automation, and Django development, and
+                                have participated in competitive programming. 
+                                Also developed Telegram bots for several purposes. 
+                                Specialize in backend development using Django and 
+                                data analysis using pandas , numpy python libraries
+                            </p>
                         </div>
 
-                        <div class="bio-dep">
-                            <div class="bio-icon">
-                                <i class="fa-regular fa-envelope"></i>
-                                <span>Email:</span>
+                    <div class="biography-mobile">
+                            <div class="biography-title">
+                                <h2>Biography</h2>
                             </div>
-                            <div class="bio-info">
-                                <p> <a href="mailto:abdulselam4246@gmail.com">abdulselam4246@gmail.com </a></p>
-                            </div>
-                            
+                            <div class="biography-inner">
+                                    <div class="bio-row">
+                                        <div class="bio-row-left">
+                                            <div class="bio-row-left-icon">
+                                                <i class="fa-regular fa-user"></i>
+                                            </div>
+                                            <div class="bio-row-left-attribute">
+                                                <p>name</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="bio-row-right">
+                                            <p>Abdulselam Molla</p>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="bio-row">
+                                        <div class="bio-row-left">
+                                            <div class="bio-row-left-icon">
+                                                <i class="fa-regular fa-envelope"></i>
+                                            </div>
+                                            <div class="bio-row-left-attribute">
+                                                <p>Email</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="bio-row-right">
+                                            <p> <a href="mailto:abdulselam4246@gmail.com">abdulselam4246@gmail.com </a></p>
+                                        </div>
+                                    </div>
+                                
+
+
+
+
+                                    <div class="bio-row">
+                                        <div class="bio-row-left">
+                                            <div class="bio-row-left-icon">
+                                                <i class="fa-regular fa-flag"></i>
+                                            </div>
+                                            <div class="bio-row-left-attribute">
+                                                <p>Country</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="bio-row-right">
+                                            <p>Ethiopia</p>
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                    <div class="bio-row">
+                                        <div class="bio-row-left">
+                                            <div class="bio-row-left-icon">
+                                                <i class="fa-solid fa-graduation-cap"></i>
+                                            </div>
+                                            <div class="bio-row-left-attribute">
+                                                <p>Degree</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="bio-row-right">
+                                            <p> Bachelor of Computer Science and Engineering</p>
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <div class="bio-row">
+                                        <div class="bio-row-left">
+                                            <div class="bio-row-left-icon">
+                                                <p>{}</p>
+                                            </div>
+                                            <div class="bio-row-left-attribute">
+                                                <p>Freelance:</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="bio-row-right">
+                                            <p> available on <a href="https://www.upwork.com/freelancers/~0169e6f42eef7f3e45?viewMode=1"> Upwork </a> </p>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+
                         </div>
+                    </div>
+
+
+
+                        <div class="biography">
+                            <div class="bio-title">
+                                <h2>Biography</h2>
+                            </div>
+                            <div class="bio-dep">
+                                <div class="bio-icon">
+                                    <i class="fa-regular fa-user"></i>
+                                    <span>name:</span>
+                                </div>
+                                <div class="bio-info">
+                                    <p>Abdulselam Molla</p>
+                                </div>
+                                
+                            </div>
+
+                            <div class="bio-dep">
+                                <div class="bio-icon">
+                                    <i class="fa-regular fa-envelope"></i>
+                                    <span>Email:</span>
+                                </div>
+                                <div class="bio-info">
+                                    <p> <a href="mailto:abdulselam4246@gmail.com">abdulselam4246@gmail.com </a></p>
+                                </div>
+                                
+                            </div>
+
+
+                       
+
+
+
                         <div class="bio-dep">
                             <div class="bio-icon">
                                 <i class="fa-regular fa-flag"></i>
@@ -137,7 +286,7 @@
                                 <span>Freelance:</span>
                             </div>
                             <div class="bio-info">
-                                <p> available on <a href="https://www.upwork.com/freelancers/~0169e6f42eef7f3e45?viewMode=1">  Upwork </a> </p>
+                                <p> available on <a href="https://www.upwork.com/freelancers/~0169e6f42eef7f3e45?viewMode=1"> Upwork </a> </p>
                             </div>
                             
                         </div>
@@ -145,21 +294,21 @@
 
 
 
-                    </div>
+                        </div>
 
-
+                        
                     
-                   </div>
+                    </div>
                     
                     <div class="leftfoto">
                         <div class="leftfoto-img">
                             <img src="ritp.jpg" alt="">
                         </div>
                     </div>
-                </div>
+                </section>
 
 
-                <div class="page two">
+                <section id="skills" class="page two">
                     <div class="two-inner">
                         <div class="hr1">
                             <hr>
@@ -329,8 +478,8 @@
 
 
 
-                </div>
-                <div class="four">
+                </section>
+                <section id="projects" class="four">
                     <div class="four-inner">
                         <div class="name">
                             <p><h2>Projects</h2</p>
@@ -492,4 +641,25 @@
 
     </div>
 </body>
+<script>
+    function closeme(){
+        document.getElementById('showw').style.display='flex';
+        document.getElementById('cons').style.display='none';
+        document.getElementById('lb').style.display='none';
+    }
+    function showme(){
+        document.getElementById('showw').style.display='none';
+        document.getElementById('cons').style.display='flex';
+        document.getElementById('lb').style.display='flex';
+        
+    }
+    function makemeactive(idd){
+        document.getElementById(1).className='normal';
+        document.getElementById(2).className='normal';
+        document.getElementById(3).className='normal';
+        document.getElementById(4).className='normal';
+        document.getElementById(idd).className='active';
+        console.log("Icam ",idd)
+    }
+</script>
 </html>
