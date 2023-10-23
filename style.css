@@ -407,7 +407,7 @@ a{
 }
 .title-category{
     border-width: .5px;
-    
+    border-style:solid;
     padding: 7px;
     font-size: large;
     border-color:#259745;
