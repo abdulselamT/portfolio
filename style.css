@@ -26,7 +26,7 @@
   display: flex;
   flex-direction: column;
   flex: 1;
-  margin-top: 80px;
+  margin-top: 20px;
 }
 .pages {
   display: flex;
@@ -60,11 +60,17 @@
   
 }
 
-.dev-name{
+.dev-name {
     font-size: 40px;
     font-family: "Courier New", Courier, monospace;
     padding-left:10px;
+    background-color: transparent;
+    border-style: none;
     
+
+}
+.dev-name a{
+    font-weight: normal;
 }
 
 .contents{
